@@ -2,7 +2,7 @@
 
 [![NPM version](https://badge.fury.io/js/dump-deps.svg)](http://badge.fury.io/js/dump-deps)
 [![Build Status](https://travis-ci.org/redonkulus/dump-deps.svg?branch=master)](https://travis-ci.org/redonkulus/dump-deps)
-[![Coverage Status](https://coveralls.io/repos/redonkulus/dump-deps/badge.svg)](https://coveralls.io/r/redonkulus/dump-deps)
+[![Coverage Status](https://coveralls.io/repos/github/redonkulus/dump-deps/badge.svg?branch=master)](https://coveralls.io/github/redonkulus/dump-deps?branch=master)
 
 Dump package dependencies to display packages with multiple versions.
 
