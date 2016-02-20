@@ -1,0 +1,17 @@
+{
+  "name": "dump-deps",
+  "version": "1.0.0",
+  "dependencies": {
+    "foo": {
+      "version": "1.0.0",
+      "dependencies": {
+        "bar": {
+          "version": "0.1.0"
+        }
+      }
+    },
+    "bar": {
+      "version": "1.0.0"
+    }
+  }
+}

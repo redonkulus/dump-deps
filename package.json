@@ -1,0 +1,41 @@
+{
+  "name": "dump-deps",
+  "version": "1.0.0",
+  "description": "Dump package dependencies to display packages with multiple versions.",
+  "license": "MIT",
+  "author": "Seth Bertalotto",
+  "keywords": [
+    "dependencies",
+    "versions"
+  ],
+  "main": "./src/deps.js",
+  "bin": "./bin/deps.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redonkulus/dump-deps"
+  },
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.1.0",
+    "coveralls": "^2.11.1",
+    "eslint": "^2.2.0",
+    "istanbul": "^0.2.10",
+    "jenkins-mocha": "^2.2.0",
+    "mocha": "^2.4.5",
+    "mockery": "^1.4.0",
+    "pre-commit": "^1.0.0"
+  },
+  "scripts": {
+    "devtest": "./node_modules/mocha/bin/_mocha test/ --recursive --reporter spec",
+    "lint": "eslint --ext .js .",
+    "test": "jenkins-mocha test --recursive"
+  },
+  "precommit": [
+    "lint",
+    "devtest"
+  ]
+}
