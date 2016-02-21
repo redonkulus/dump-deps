@@ -43,6 +43,10 @@ You have 238 dependent packages with more than one copy.
 You have 693 extra includes in total.
 ```
 
+## Usecase
+
+This is generally useful for large applications that want to track how many versions of their dependencies are installed. This ensures that your dependency graph is optimized and as small as possible.
+
 ## License
 
 MIT. See the [LICENSE](https://github.com/redonkulus/dump-deps/blob/master/LICENSE.md) file for license text and copyright information.
