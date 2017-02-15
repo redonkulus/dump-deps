@@ -1,10 +1,9 @@
 # dump-deps
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/redonkulus/dump-deps.svg)](https://greenkeeper.io/)
-
 [![NPM version](https://badge.fury.io/js/dump-deps.svg)](http://badge.fury.io/js/dump-deps)
 [![Build Status](https://travis-ci.org/redonkulus/dump-deps.svg?branch=master)](https://travis-ci.org/redonkulus/dump-deps)
 [![Coverage Status](https://coveralls.io/repos/github/redonkulus/dump-deps/badge.svg?branch=master)](https://coveralls.io/github/redonkulus/dump-deps?branch=master)
+[![Greenkeeper badge](https://badges.greenkeeper.io/redonkulus/dump-deps.svg)](https://greenkeeper.io/)
 
 Dump package dependencies to display packages with multiple versions.
 
