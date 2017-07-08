@@ -20,7 +20,7 @@
     "optimist": "^0.6.1"
   },
   "devDependencies": {
-    "chai": "^3.1.0",
+    "chai": "^4.0.2",
     "coveralls": "^2.11.1",
     "eslint": "^4.1.0",
     "istanbul": "^0.4.5",
