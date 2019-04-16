@@ -24,7 +24,7 @@
     "coveralls": "^3.0.0",
     "eslint": "^5.0.0",
     "jenkins-mocha": "^7.0.0",
-    "nyc": "^13.0.0",
+    "nyc": "^14.0.0",
     "mockery": "^2.0.0",
     "pre-commit": "^1.0.0"
   },
